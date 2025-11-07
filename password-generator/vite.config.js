@@ -1,7 +1,9 @@
+// vite.config.js  (or vite.config.ts)
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/password-generator/',      // for GitHub Pages: /<repo-name>/
+  build: { outDir: 'docs' } // output build to /docs
 })
