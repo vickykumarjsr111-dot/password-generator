@@ -40,7 +40,3 @@ npm run build
 
 * Works entirely in browser
 * Shows alert if no options selected
-
-## License
-
-MIT
